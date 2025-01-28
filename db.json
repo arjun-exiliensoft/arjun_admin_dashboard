@@ -24,5 +24,27 @@
       "status": "pending",
       "priority": "low"
     }
-  ]
+  ],
+"systemHealth":[
+  {
+    "name": "Server CPU",
+    "value": 68,
+    "status": "warning"
+  },
+  {
+    "name": "Memory Usage",
+    "value": 42,
+    "status": "success"
+  },
+  {
+    "name": "Storage",
+    "value": 85,
+    "status": "danger"
+  },
+  {
+    "name": "Network",
+    "value": 25,
+    "status": "success"
+  }
+],
 }
